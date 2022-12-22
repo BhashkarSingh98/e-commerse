@@ -20,8 +20,8 @@ const Products = ({ cat, filters, sort }) => {
       try {
         const res = await axios.get(
           cat
-            ? `https://ecommerce-api-ravi.cyclic.app/api/products?category=${cat}`
-            : "https://ecommerce-api-ravi.cyclic.app/api/products"
+            ? `http://localhost:8080/api/products?category=${cat}`
+            : "http://localhost:8080/api/products"
         );
         setProducts(res.data);
       } catch (error) {}
