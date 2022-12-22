@@ -101,44 +101,29 @@ const Footer = () => {
         </Desc>
         <SocialContainer>
           <SocialIcon>
-            <a
-              style={{ textDecoration: "none", color: "inherit" }}
-              href="https://www.facebook.com/ravipatil.ravipatil.526/"
-            >
+           
               <Facebook />
-            </a>
+            
           </SocialIcon>
           <SocialIcon>
-            <a
-              style={{ textDecoration: "none", color: "inherit" }}
-              href="https://www.instagram.com/r_a_v_i_i_i_i/"
-            >
+            
               <Instagram />
-            </a>
+            
           </SocialIcon>
           <SocialIcon>
-            <a
-              style={{ textDecoration: "none", color: "inherit" }}
-              href="https://twitter.com/home"
-            >
+            
               <Twitter />
-            </a>
+            
           </SocialIcon>
           <SocialIcon>
-            <a
-              style={{ textDecoration: "none", color: "inherit" }}
-              href="https://github.com/Ravip925"
-            >
+            
               <GitHub />
-            </a>
+            
           </SocialIcon>
           <SocialIcon>
-            <a
-              style={{ textDecoration: "none", color: "inherit" }}
-              href="https://in.pinterest.com/"
-            >
+            
               <Pinterest />
-            </a>
+            
           </SocialIcon>
         </SocialContainer>
       </Left>
